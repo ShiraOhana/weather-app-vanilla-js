@@ -7,7 +7,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 150px;
-  width: 50%;
+  width: 60%;
   border: 5px, 10px, 5px;
   margin: 50px auto;
   border: 1px solid white;
@@ -16,14 +16,14 @@ body {
   background: white;
   box-shadow: 5px 5px 5px grey;
 }
-.button {
+.search-button {
   color: #ffff;
   background-color: #fff;
   border-radius: 4px;
   margin: 10px;
   position: relative;
-  left: 220px;
-  top: -117px;
+  left: 238px;
+  top: -55px;
 }
 #location {
   color: rgb(124, 67, 107);
@@ -71,7 +71,21 @@ body {
   color: #fff;
   background-color: purple;
   margin: 5px;
-  padding: 7px;
+  padding: 4px;
   border: 5px;
   border-radius: 2px;
+  position: relative;
+  left: 225px;
+  bottom: 55px;
+}
+#my-info {
+  color: rgb(177, 106, 187);
+  padding-top: 7px;
+}
+#my-link {
+  text-decoration: none;
+  color: rgb(222, 140, 233);
+}
+#my-link:hover {
+  text-decoration: underline;
 }
