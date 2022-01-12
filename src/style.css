@@ -1,0 +1,77 @@
+body {
+  background-image: url(../img/bcg.jfif);
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 150px;
+  width: 50%;
+  border: 5px, 10px, 5px;
+  margin: 50px auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 30px;
+  background: white;
+  box-shadow: 5px 5px 5px grey;
+}
+.button {
+  color: #ffff;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 10px;
+  position: relative;
+  left: 220px;
+  top: -117px;
+}
+#location {
+  color: rgb(124, 67, 107);
+  font-size: 35px;
+  padding: 5px;
+  margin-left: 15px;
+  font-weight: 600;
+}
+.now {
+  padding: 1px;
+  width: 80%;
+  border: 5px, 1px, 5px;
+}
+
+.col-curr-temp {
+  font-size: 55px;
+  color: rgb(124, 67, 107);
+  font-weight: 700;
+  padding: 15px;
+  margin-right: 25px;
+}
+.card-day1:hover,
+.card-day2:hover,
+.card-day3:hover,
+.card-day4:hover {
+  transition: all, 200ms, ease-in-out;
+  color: rgba(124, 67, 107, 0.8);
+}
+.col-temp-info {
+  color: rgb(124, 67, 107);
+  padding-right: 35px;
+  margin-right: 25px;
+  width: 50%;
+}
+.col-temp-location {
+  color: rgb(124, 67, 107);
+  padding: 15px;
+  margin-right: 25px;
+}
+.col-enter-city {
+  padding: 5px;
+  margin: 10px;
+}
+#current-location {
+  color: #fff;
+  background-color: purple;
+  margin: 5px;
+  padding: 7px;
+  border: 5px;
+  border-radius: 2px;
+}
